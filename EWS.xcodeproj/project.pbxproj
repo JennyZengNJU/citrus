@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865F8E061D1A87E300BAEAF8 /* RoomBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865F8E051D1A87E300BAEAF8 /* RoomBookViewController.m */; };
 		86B636821D13F7E60012C924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B636811D13F7E60012C924 /* main.m */; };
 		86B636851D13F7E60012C924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B636841D13F7E60012C924 /* AppDelegate.m */; };
 		86B636881D13F7E60012C924 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B636871D13F7E60012C924 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		86B6368D1D13F7E60012C924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B6368C1D13F7E60012C924 /* Images.xcassets */; };
 		86B636901D13F7E60012C924 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B6368E1D13F7E60012C924 /* LaunchScreen.xib */; };
 		86B6369C1D13F7E60012C924 /* EWSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6369B1D13F7E60012C924 /* EWSTests.m */; };
+		AD8A2037F5B2EFF7B57F046B /* libPods-EWS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7986C0FA038584B8CE83B137 /* libPods-EWS.a */; };
+		EC0055081D262EF000830764 /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0055051D262EF000830764 /* EventManager.m */; };
+		EC0055091D262EF000830764 /* RoomCalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0055071D262EF000830764 /* RoomCalendarTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		653647139B0ECFEBCF8845E6 /* Pods-EWS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EWS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EWS/Pods-EWS.debug.xcconfig"; sourceTree = "<group>"; };
+		7986C0FA038584B8CE83B137 /* libPods-EWS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EWS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800DEE9D1F760C0F16EECC1A /* Pods-EWS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EWS.release.xcconfig"; path = "Pods/Target Support Files/Pods-EWS/Pods-EWS.release.xcconfig"; sourceTree = "<group>"; };
+		865F8E041D1A87E300BAEAF8 /* RoomBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomBookViewController.h; sourceTree = "<group>"; };
+		865F8E051D1A87E300BAEAF8 /* RoomBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomBookViewController.m; sourceTree = "<group>"; };
 		86B6367C1D13F7E60012C924 /* EWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B636801D13F7E60012C924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B636811D13F7E60012C924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,10 @@
 		86B636951D13F7E60012C924 /* EWSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B6369A1D13F7E60012C924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B6369B1D13F7E60012C924 /* EWSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWSTests.m; sourceTree = "<group>"; };
+		EC0055041D262EF000830764 /* EventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventManager.h; sourceTree = "<group>"; };
+		EC0055051D262EF000830764 /* EventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventManager.m; sourceTree = "<group>"; };
+		EC0055061D262EF000830764 /* RoomCalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCalendarTableViewController.h; sourceTree = "<group>"; };
+		EC0055071D262EF000830764 /* RoomCalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCalendarTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8A2037F5B2EFF7B57F046B /* libPods-EWS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +74,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		588E0BA77D48448C75A3AA05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				653647139B0ECFEBCF8845E6 /* Pods-EWS.debug.xcconfig */,
+				800DEE9D1F760C0F16EECC1A /* Pods-EWS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		86B636731D13F7E50012C924 = {
 			isa = PBXGroup;
 			children = (
 				86B6367E1D13F7E60012C924 /* EWS */,
 				86B636981D13F7E60012C924 /* EWSTests */,
 				86B6367D1D13F7E60012C924 /* Products */,
+				588E0BA77D48448C75A3AA05 /* Pods */,
+				8A38EB3A3C40B46FBB00C8C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +106,16 @@
 		86B6367E1D13F7E60012C924 /* EWS */ = {
 			isa = PBXGroup;
 			children = (
+				EC0055041D262EF000830764 /* EventManager.h */,
+				EC0055051D262EF000830764 /* EventManager.m */,
+				EC0055061D262EF000830764 /* RoomCalendarTableViewController.h */,
+				EC0055071D262EF000830764 /* RoomCalendarTableViewController.m */,
 				86B636831D13F7E60012C924 /* AppDelegate.h */,
 				86B636841D13F7E60012C924 /* AppDelegate.m */,
 				86B636861D13F7E60012C924 /* ViewController.h */,
 				86B636871D13F7E60012C924 /* ViewController.m */,
+				865F8E041D1A87E300BAEAF8 /* RoomBookViewController.h */,
+				865F8E051D1A87E300BAEAF8 /* RoomBookViewController.m */,
 				86B636891D13F7E60012C924 /* Main.storyboard */,
 				86B6368C1D13F7E60012C924 /* Images.xcassets */,
 				86B6368E1D13F7E60012C924 /* LaunchScreen.xib */,
@@ -119,6 +150,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8A38EB3A3C40B46FBB00C8C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7986C0FA038584B8CE83B137 /* libPods-EWS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86B6369F1D13F7E60012C924 /* Build configuration list for PBXNativeTarget "EWS" */;
 			buildPhases = (
+				D03140280741421C4DB73C3C /* [CP] Check Pods Manifest.lock */,
 				86B636781D13F7E60012C924 /* Sources */,
 				86B636791D13F7E60012C924 /* Frameworks */,
 				86B6367A1D13F7E60012C924 /* Resources */,
+				DBAB5C138E1B3BC87D33A1FB /* [CP] Embed Pods Frameworks */,
+				AFA1B60DFEA0EDD34968C09C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +205,9 @@
 		86B636741D13F7E50012C924 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					cxz,
+				);
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Tianhui ";
 				TargetAttributes = {
@@ -214,6 +259,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AFA1B60DFEA0EDD34968C09C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EWS/Pods-EWS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03140280741421C4DB73C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAB5C138E1B3BC87D33A1FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EWS/Pods-EWS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86B636781D13F7E60012C924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +314,10 @@
 			files = (
 				86B636881D13F7E60012C924 /* ViewController.m in Sources */,
 				86B636851D13F7E60012C924 /* AppDelegate.m in Sources */,
+				EC0055091D262EF000830764 /* RoomCalendarTableViewController.m in Sources */,
+				865F8E061D1A87E300BAEAF8 /* RoomBookViewController.m in Sources */,
 				86B636821D13F7E60012C924 /* main.m in Sources */,
+				EC0055081D262EF000830764 /* EventManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +443,7 @@
 		};
 		86B636A01D13F7E60012C924 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653647139B0ECFEBCF8845E6 /* Pods-EWS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EWS/Info.plist;
@@ -357,6 +454,7 @@
 		};
 		86B636A11D13F7E60012C924 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800DEE9D1F760C0F16EECC1A /* Pods-EWS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EWS/Info.plist;
@@ -418,6 +516,7 @@
 				86B636A11D13F7E60012C924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B636A21D13F7E60012C924 /* Build configuration list for PBXNativeTarget "EWSTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +525,7 @@
 				86B636A41D13F7E60012C924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
